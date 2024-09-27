@@ -27,13 +27,13 @@ export function Navbar() {
             ),
             href: "./features",
         },
-        {
-            title: "Components",
-            icon: (
-                <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-            ),
-            href: "#",
-        },
+        // {
+        //     title: "Components",
+        //     icon: (
+        //         <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        //     ),
+        //     href: "#",
+        // },
         {
             title: "Aboutus",
             icon: (
@@ -45,28 +45,28 @@ export function Navbar() {
             ),
             href: "./AboutUs",
         },
-        {
-            title: "Changelog",
-            icon: (
-                <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-            ),
-            href: "#",
-        },
+        // {
+        //     title: "Changelog",
+        //     icon: (
+        //         <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        //     ),
+        //     href: "#",
+        // },
 
-        {
-            title: "Twitter",
-            icon: (
-                <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-            ),
-            href: "#",
-        },
-        {
-            title: "GitHub",
-            icon: (
-                <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-            ),
-            href: "#",
-        },
+        // {
+        //     title: "Twitter",
+        //     icon: (
+        //         <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        //     ),
+        //     href: "#",
+        // },
+        // {
+        //     title: "GitHub",
+        //     icon: (
+        //         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        //     ),
+        //     href: "#",
+        // },
     ];
     return (
         (<div className="justify-center w-full z-[30] flex mt-3 fixed  bottom-6">
